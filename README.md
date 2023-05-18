@@ -5,28 +5,29 @@
 
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-  The purpose of the analysis is to use various techniques to train , evaluate a model based on loan risk and build a model that can identify the creditworthiness of borrowers.
+The purpose of the analysis is to use various techniques to train , evaluate a model based on loan risk and build a model that can identify the creditworthiness of borrowers.
 
 ## Results
 
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
+The balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1 - Logistic Regression:
 
 	Accuracy: 0.9442676901753825
+	
 	Precision: 1.0 / 0.87
+	
 	Recall scores: 1.0 / 0.89
 
 * Machine Learning Model 2 - Logistic Regression w/ ReSampled Data:
 
 	Accuracy: 0.9959744975744975
+	
 	Precision: 1.0 / 0.87
+	
 	Recall scores: 1.0 / 1.0
 
 ## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any.
 
  The precision for the logistic regression model, detecting healthy loans (1.0) was accurate and a little less accurate at detecting high-risk one (0.87).
  For recall, the model was accurate at detecting healthy loan (1) but scored 89% high-risk loan.
