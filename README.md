@@ -30,7 +30,7 @@ The balanced accuracy scores and the precision and recall scores of all machine 
 ## Summary
 
  The precision for the logistic regression model, detecting healthy loans (1.0) was accurate and a little less accurate at detecting high-risk one (0.87).
- For recall, the model was accurate at detecting healthy loan (1) but scored 89% high-risk loan.
+ For recall, the model was accurate at detecting healthy loan (1) but scored  detecting high-risk one (0.89).
  Overall, we suggest an increase in accuracy would be necessery from the prediction results from the logistic regression model considering we're evaluating high-risk loan.
 
  The precision for the logistic regression model, fit with oversampled data, was accurate at detecting healthy loans (1.0) and a little less accurate at detecting high-risk one (0.87).
